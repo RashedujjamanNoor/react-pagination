@@ -1,9 +1,10 @@
 import "./App.css";
+import { Product } from "./components/Product";
 
 function App() {
   return (
     <>
-      <div className="bg-red-600 font-bold"> hello</div>
+      <Product />
     </>
   );
 }
